@@ -2,9 +2,9 @@ package com.example.productcrud.model;
 
 import java.time.LocalDate;
 
-import jakarta.persistence.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "products")
